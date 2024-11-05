@@ -9,6 +9,9 @@ EditorBuildSettings:
     path: Assets/Contents/Scenes/Boot.unity
     guid: 89350893dc7b04a9f8edc0124333b835
   - enabled: 1
+    path: Assets/Contents/Scenes/AuthorizationScene.unity
+    guid: a8d836bb4f9cc7e4da9d0b44b17d2f4b
+  - enabled: 1
     path: Assets/Contents/Scenes/Meta.unity
     guid: da70a0b694b2d4f48998fe1f4f5d83cd
   - enabled: 1

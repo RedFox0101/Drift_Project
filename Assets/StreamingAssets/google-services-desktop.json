@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "258292747000",
+    "project_id": "driftproject-6a632",
+    "storage_bucket": "driftproject-6a632.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:258292747000:android:23c12c5f189bea127fc90d",
+        "android_client_info": {
+          "package_name": "com.RedFox.Drift_Project"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDJWtipusey37G6YxSbtGjpHuPLZnKp8xU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
