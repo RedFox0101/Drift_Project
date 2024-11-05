@@ -1,5 +1,4 @@
 using UnityEngine;
-using UnityEngine.SceneManagement;
 using Zenject;
 
 namespace Game.Loadings.Boot
@@ -16,7 +15,7 @@ namespace Game.Loadings.Boot
 
         private void Start()
         {
-            _loadingService.LoadMeta();
+            _loadingService.LoadAuthorization();
         }
     }
 }

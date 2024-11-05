@@ -21,10 +21,10 @@ MonoBehaviour:
     PrefabModificationsReferencedUnityObjects: []
     PrefabModifications: []
     SerializationNodes: []
-  <ID>k__BackingField: Authorization
+  <ID>k__BackingField: AuthorizationScene
   <LoadingSettings>k__BackingField:
   - _sceneAsset:
       m_SceneAsset: {fileID: 102900000, guid: a8d836bb4f9cc7e4da9d0b44b17d2f4b, type: 3}
       m_SceneName: AuthorizationScene
-    _loadSceneMode: 0
-    _isActive: 1
+    _loadSceneMode: 1
+    _isActive: 0

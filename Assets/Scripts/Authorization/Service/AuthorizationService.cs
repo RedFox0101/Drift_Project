@@ -16,7 +16,7 @@ namespace Game
 
         public AuthorizationService() => InitializeFirebase();
 
-        public async Task LoginWithEmail(string email, string password)
+        public async void LoginWithEmail(string email, string password)
         {
             if (string.IsNullOrEmpty(email) || string.IsNullOrEmpty(password))
             {
@@ -37,7 +37,7 @@ namespace Game
             }
         }
 
-        public async Task RegisterWithEmail(string email, string password)
+        public async void RegisterWithEmail(string email, string password)
         {
             if (string.IsNullOrEmpty(email) || string.IsNullOrEmpty(password))
             {

@@ -72,6 +72,11 @@ namespace Game.Loadings
             Load(_config.MetaLoadingData);
         }
 
+        public void LoadAuthorization()
+        {
+            Load(_config.AuthorizationData);
+        }
+
         public void Load(string loadingDataID, float minDuration = 0f)
         {
             var loadingData = GetData(loadingDataID);
@@ -148,6 +153,7 @@ namespace Game.Loadings
                     await UniTask.Delay(TimeSpan.FromSeconds(delay));
                 }
             }
+
             _uiLoadingScreen.SetActive(false);
             
             _isLoading = false;

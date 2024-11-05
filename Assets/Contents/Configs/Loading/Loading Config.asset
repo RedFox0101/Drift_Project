@@ -19,6 +19,7 @@ MonoBehaviour:
     - {fileID: 102900000, guid: 89350893dc7b04a9f8edc0124333b835, type: 3}
     - {fileID: 8149621227350027966, guid: b161990e24b9f491ca9b46f6c9dc4bba, type: 3}
     - {fileID: 11400000, guid: e0ed97283ec547940b897ed40718e418, type: 2}
+    - {fileID: 11400000, guid: fed5e1a0a84094e3db2149d6cd80f66c, type: 2}
     SerializedBytesString: 
     Prefab: {fileID: 0}
     PrefabModificationsReferencedUnityObjects: []
@@ -39,9 +40,12 @@ MonoBehaviour:
     - Name: LoadingScreen
       Entry: 10
       Data: 1
-    - Name: MetaLoadingData
+    - Name: AuthorizationData
       Entry: 10
       Data: 2
+    - Name: MetaLoadingData
+      Entry: 10
+      Data: 3
     - Name: SkipForLoop
       Entry: 3
       Data: 0

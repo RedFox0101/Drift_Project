@@ -10,6 +10,7 @@ namespace Game.Loadings
     {
         [SerializeField] public SceneField BootScene { get; private set; }
         [SerializeField] public UILoadingScreen LoadingScreen { get; private set; }
+        [SerializeField] public LoadingDataScriptable AuthorizationData { get; private set; }
         [SerializeField] public LoadingDataScriptable MetaLoadingData { get; private set; }
         [SerializeField] public int SkipForLoop { get; private set; }
     }
