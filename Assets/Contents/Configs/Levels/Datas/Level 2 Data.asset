@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f6bf31a86e5b4c18ab6a720ba0a01609, type: 3}
+  m_Name: Level 2 Data
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: <Predicate>k__BackingField
+      Entry: 7
+      Data: 0|Game.Unlocks.Data.UnlockData, Assembly-CSharp
+    - Name: _value
+      Entry: 6
+      Data: 
+    - Name: UnlockData+_value
+      Entry: 1
+      Data: Level 2 Unlock
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: <Reward>k__BackingField
+      Entry: 7
+      Data: 1|Game.Items.Data.ItemData, Assembly-CSharp
+    - Name: _value
+      Entry: 6
+      Data: 
+    - Name: ItemData+_value
+      Entry: 1
+      Data: Money
+    - Name: _count
+      Entry: 3
+      Data: 2
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: <RewardSystem>k__BackingField
+      Entry: 6
+      Data: 
+  <ID>k__BackingField: Level 2
+  <Name>k__BackingField: Level 2
+  <LoadingDataID>k__BackingField: Implementation 2
+  <DurationTimer>k__BackingField: 2

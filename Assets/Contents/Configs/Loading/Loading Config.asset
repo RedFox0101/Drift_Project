@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d4f21a343eec4a63b16b66b1e38f2e25, type: 3}
+  m_Name: Loading Config
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: 102900000, guid: 89350893dc7b04a9f8edc0124333b835, type: 3}
+    - {fileID: 8149621227350027966, guid: b161990e24b9f491ca9b46f6c9dc4bba, type: 3}
+    - {fileID: 11400000, guid: fed5e1a0a84094e3db2149d6cd80f66c, type: 2}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: BootScene
+      Entry: 7
+      Data: 0|Game.Loadings.Scenes.SceneField, Assembly-CSharp
+    - Name: m_SceneAsset
+      Entry: 10
+      Data: 0
+    - Name: m_SceneName
+      Entry: 1
+      Data: Boot
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: LoadingScreen
+      Entry: 10
+      Data: 1
+    - Name: MetaLoadingData
+      Entry: 10
+      Data: 2
+    - Name: SkipForLoop
+      Entry: 3
+      Data: 0
+  _datas:
+  - {fileID: 11400000, guid: 0efa7b9d036f246e0ae46d1ffa8da236, type: 2}
+  - {fileID: 11400000, guid: c14c764fd712042319f1ca044511c771, type: 2}
+  - {fileID: 11400000, guid: fed5e1a0a84094e3db2149d6cd80f66c, type: 2}

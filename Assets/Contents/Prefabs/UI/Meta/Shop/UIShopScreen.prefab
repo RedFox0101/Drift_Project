@@ -1,0 +1,454 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1248838110233973037
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5881529754192508485}
+  - component: {fileID: 7058933760065312240}
+  - component: {fileID: 3905840141350884266}
+  m_Layer: 5
+  m_Name: UIShopScreen
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &5881529754192508485
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1248838110233973037}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 5824218994065901815}
+  - {fileID: 8720427059009648378}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!222 &7058933760065312240
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1248838110233973037}
+  m_CullTransparentMesh: 1
+--- !u!114 &3905840141350884266
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1248838110233973037}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5bdb2f30738a4ddf89ffeafb3aab1cf1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: _shopItemCategories
+      Entry: 7
+      Data: 0|Game.Shop.UI.ShopItemCategories[], Assembly-CSharp
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: Game.Shop.UI.ShopItemCategories, Assembly-CSharp
+    - Name: <Name>k__BackingField
+      Entry: 1
+      Data: Body Color
+    - Name: <Items>k__BackingField
+      Entry: 7
+      Data: 1|Game.Shop.UI.ShopItemInfo[], Assembly-CSharp
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: Game.Shop.UI.ShopItemInfo, Assembly-CSharp
+    - Name: <Reward>k__BackingField
+      Entry: 7
+      Data: 2|Game.Items.Data.ItemData, Assembly-CSharp
+    - Name: _value
+      Entry: 6
+      Data: 
+    - Name: ItemData+_value
+      Entry: 1
+      Data: Car body blue
+    - Name: _count
+      Entry: 3
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: <Price>k__BackingField
+      Entry: 7
+      Data: 3|Game.Items.Data.ItemData, Assembly-CSharp
+    - Name: _value
+      Entry: 6
+      Data: 
+    - Name: ItemData+_value
+      Entry: 1
+      Data: Money
+    - Name: _count
+      Entry: 3
+      Data: 50
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: <NotContainInventory>k__BackingField
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: Game.Shop.UI.ShopItemInfo, Assembly-CSharp
+    - Name: <Reward>k__BackingField
+      Entry: 7
+      Data: 4|Game.Items.Data.ItemData, Assembly-CSharp
+    - Name: _value
+      Entry: 6
+      Data: 
+    - Name: ItemData+_value
+      Entry: 1
+      Data: Car body red
+    - Name: _count
+      Entry: 3
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: <Price>k__BackingField
+      Entry: 7
+      Data: 5|Game.Items.Data.ItemData, Assembly-CSharp
+    - Name: _value
+      Entry: 6
+      Data: 
+    - Name: ItemData+_value
+      Entry: 1
+      Data: Money
+    - Name: _count
+      Entry: 3
+      Data: 50
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: <NotContainInventory>k__BackingField
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: Game.Shop.UI.ShopItemCategories, Assembly-CSharp
+    - Name: <Name>k__BackingField
+      Entry: 1
+      Data: Wheel Color
+    - Name: <Items>k__BackingField
+      Entry: 7
+      Data: 6|Game.Shop.UI.ShopItemInfo[], Assembly-CSharp
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: Game.Shop.UI.ShopItemInfo, Assembly-CSharp
+    - Name: <Reward>k__BackingField
+      Entry: 7
+      Data: 7|Game.Items.Data.ItemData, Assembly-CSharp
+    - Name: _value
+      Entry: 6
+      Data: 
+    - Name: ItemData+_value
+      Entry: 1
+      Data: Wheel Car V1
+    - Name: _count
+      Entry: 3
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: <Price>k__BackingField
+      Entry: 7
+      Data: 8|Game.Items.Data.ItemData, Assembly-CSharp
+    - Name: _value
+      Entry: 6
+      Data: 
+    - Name: ItemData+_value
+      Entry: 1
+      Data: Money
+    - Name: _count
+      Entry: 3
+      Data: 23
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: <NotContainInventory>k__BackingField
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: Game.Shop.UI.ShopItemInfo, Assembly-CSharp
+    - Name: <Reward>k__BackingField
+      Entry: 7
+      Data: 9|Game.Items.Data.ItemData, Assembly-CSharp
+    - Name: _value
+      Entry: 6
+      Data: 
+    - Name: ItemData+_value
+      Entry: 1
+      Data: Wheel Car V2
+    - Name: _count
+      Entry: 3
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: <Price>k__BackingField
+      Entry: 7
+      Data: 10|Game.Items.Data.ItemData, Assembly-CSharp
+    - Name: _value
+      Entry: 6
+      Data: 
+    - Name: ItemData+_value
+      Entry: 1
+      Data: Money
+    - Name: _count
+      Entry: 3
+      Data: 33
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: <NotContainInventory>k__BackingField
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+  _targetContainer: {fileID: 8720427059009648378}
+  contractShopCategoriesItem: {fileID: 8209844401742352711, guid: 6c023630ff38a43fdbde7b5d1bda68da, type: 3}
+--- !u!1 &3421841313192503629
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8720427059009648378}
+  - component: {fileID: 462669975312142811}
+  m_Layer: 5
+  m_Name: Panel
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &8720427059009648378
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3421841313192503629}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 5881529754192508485}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 0}
+  m_AnchoredPosition: {x: 0, y: 50}
+  m_SizeDelta: {x: 0, y: 200}
+  m_Pivot: {x: 0.5, y: 0}
+--- !u!114 &462669975312142811
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3421841313192503629}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30649d3a9faa99c48a7b1166b86bf2a0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Padding:
+    m_Left: 100
+    m_Right: 100
+    m_Top: 0
+    m_Bottom: 0
+  m_ChildAlignment: 4
+  m_Spacing: 50
+  m_ChildForceExpandWidth: 1
+  m_ChildForceExpandHeight: 1
+  m_ChildControlWidth: 0
+  m_ChildControlHeight: 0
+  m_ChildScaleWidth: 0
+  m_ChildScaleHeight: 0
+  m_ReverseArrangement: 0
+--- !u!1001 &5171232404230246389
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 5881529754192508485}
+    m_Modifications:
+    - target: {fileID: 1661863618708473602, guid: fc6aec0a4e15c4db18b3e57e41f0ce0e, type: 3}
+      propertyPath: m_Pivot.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1661863618708473602, guid: fc6aec0a4e15c4db18b3e57e41f0ce0e, type: 3}
+      propertyPath: m_Pivot.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1661863618708473602, guid: fc6aec0a4e15c4db18b3e57e41f0ce0e, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1661863618708473602, guid: fc6aec0a4e15c4db18b3e57e41f0ce0e, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1661863618708473602, guid: fc6aec0a4e15c4db18b3e57e41f0ce0e, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1661863618708473602, guid: fc6aec0a4e15c4db18b3e57e41f0ce0e, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1661863618708473602, guid: fc6aec0a4e15c4db18b3e57e41f0ce0e, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1661863618708473602, guid: fc6aec0a4e15c4db18b3e57e41f0ce0e, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1661863618708473602, guid: fc6aec0a4e15c4db18b3e57e41f0ce0e, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1661863618708473602, guid: fc6aec0a4e15c4db18b3e57e41f0ce0e, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1661863618708473602, guid: fc6aec0a4e15c4db18b3e57e41f0ce0e, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1661863618708473602, guid: fc6aec0a4e15c4db18b3e57e41f0ce0e, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1661863618708473602, guid: fc6aec0a4e15c4db18b3e57e41f0ce0e, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1661863618708473602, guid: fc6aec0a4e15c4db18b3e57e41f0ce0e, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1661863618708473602, guid: fc6aec0a4e15c4db18b3e57e41f0ce0e, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1661863618708473602, guid: fc6aec0a4e15c4db18b3e57e41f0ce0e, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1661863618708473602, guid: fc6aec0a4e15c4db18b3e57e41f0ce0e, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1661863618708473602, guid: fc6aec0a4e15c4db18b3e57e41f0ce0e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1661863618708473602, guid: fc6aec0a4e15c4db18b3e57e41f0ce0e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1661863618708473602, guid: fc6aec0a4e15c4db18b3e57e41f0ce0e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3933834374681320003, guid: fc6aec0a4e15c4db18b3e57e41f0ce0e, type: 3}
+      propertyPath: m_Name
+      value: UIBackgroundScreen
+      objectReference: {fileID: 0}
+    - target: {fileID: 5461192342866658592, guid: fc6aec0a4e15c4db18b3e57e41f0ce0e, type: 3}
+      propertyPath: _uiScreen
+      value: 
+      objectReference: {fileID: 3905840141350884266}
+    - target: {fileID: 5461192342866658592, guid: fc6aec0a4e15c4db18b3e57e41f0ce0e, type: 3}
+      propertyPath: serializationData.Prefab
+      value: 
+      objectReference: {fileID: 5461192342866658592, guid: fc6aec0a4e15c4db18b3e57e41f0ce0e, type: 3}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: fc6aec0a4e15c4db18b3e57e41f0ce0e, type: 3}
+--- !u!224 &5824218994065901815 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 1661863618708473602, guid: fc6aec0a4e15c4db18b3e57e41f0ce0e, type: 3}
+  m_PrefabInstance: {fileID: 5171232404230246389}
+  m_PrefabAsset: {fileID: 0}

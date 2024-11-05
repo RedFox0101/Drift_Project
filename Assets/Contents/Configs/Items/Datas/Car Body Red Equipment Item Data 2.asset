@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3896bdc03c6f41dc9f229397ac7c45c2, type: 3}
+  m_Name: Car Body Red Equipment Item Data 2
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes: []
+  <ID>k__BackingField: Car body red
+  <Name>k__BackingField: Car body red
+  <StackLimit>k__BackingField: 1
+  <Icon>k__BackingField: {fileID: 0}
+  <IsSystem>k__BackingField: 0
+  <EquipmentSlotID>k__BackingField: Body Car
+  <ObjectVisual>k__BackingField: {fileID: 7925844352848120770, guid: de29c9ddab0cc426cae5938d4ceda2ba, type: 3}
