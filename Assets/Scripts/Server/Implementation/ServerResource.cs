@@ -8,11 +8,11 @@ namespace Game.Server.Implementation
 {
     public class ServerResource : AssetResource
     {
-        private LoadingManager _loadingManager;
+        private LoadingService _loadingManager;
         private ServerManager _serverManager;
 
         [Inject]
-        private void Inject(LoadingManager loadingManager, ServerManager serverManager)
+        private void Inject(LoadingService loadingManager, ServerManager serverManager)
         {
             _serverManager = serverManager;
             _loadingManager = loadingManager;

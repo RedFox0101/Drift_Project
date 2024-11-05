@@ -16,12 +16,12 @@ namespace Game.Levels.Handlers
 
         private UIManager _uiManager;
         private ServerManager _serverManager;
-        private LoadingManager _loadingManager;
+        private LoadingService _loadingManager;
         
         private UIButton _buttonStart;
         
         [Inject]
-        private void Install(ServerManager serverManager, LoadingManager loadingManager, UIManager uiManager)
+        private void Install(ServerManager serverManager, LoadingService loadingManager, UIManager uiManager)
         {
             _uiManager = uiManager;
             _serverManager = serverManager;

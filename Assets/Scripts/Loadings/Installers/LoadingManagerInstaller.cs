@@ -9,7 +9,7 @@ namespace Game.Loadings.Installers
         
         public override void InstallBindings()
         {
-            Container.BindInterfacesAndSelfTo<LoadingManager>().AsSingle().NonLazy();
+            Container.BindInterfacesAndSelfTo<LoadingService>().AsSingle().NonLazy();
             Container.BindInterfacesAndSelfTo<LoadingConfig>().FromInstance(_config).AsSingle();
         }
     }

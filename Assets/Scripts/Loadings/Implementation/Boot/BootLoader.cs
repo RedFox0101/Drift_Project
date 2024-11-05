@@ -6,17 +6,17 @@ namespace Game.Loadings.Boot
 {
     public class BootLoader : MonoBehaviour
     {
-        private LoadingManager _loadingManager;
+        private LoadingService _loadingService;
         
         [Inject]
-        private void Install(LoadingManager loadingManager)
+        private void Install(LoadingService loadingManager)
         {
-            _loadingManager = loadingManager;
+            _loadingService = loadingManager;
         }
 
         private void Start()
         {
-            _loadingManager.LoadMeta();
+            _loadingService.LoadMeta();
         }
     }
 }

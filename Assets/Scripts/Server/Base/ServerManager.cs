@@ -23,7 +23,7 @@ namespace Game.Server
         
         private ServerConfig _config;
         private SaveManager _saveManager;
-        private LoadingManager _loadingManager;
+        private LoadingService _loadingManager;
         private AssetsManager _assetsManager;
         
         private List<RoomInfo> _rooms = new();
@@ -50,7 +50,7 @@ namespace Game.Server
         
         [Inject]
         private void Install(ServerConfig serverConfig, SaveManager saveManager, 
-            LoadingManager loadingManager,  AssetsManager assetsManager) 
+            LoadingService loadingManager,  AssetsManager assetsManager) 
         {
             _config = serverConfig;
             _saveManager = saveManager;

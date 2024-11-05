@@ -23,12 +23,12 @@ namespace Game.Levels.UI
         private UIManager _uiManager;
         private ItemsManager _itemsManager;
         private ServerManager _serverManager;
-        private LoadingManager _loadingManager;
+        private LoadingService _loadingManager;
 
         private List<UIRatingsItem> _uiRatingsItemPool;
         
         [Inject]
-        private void Install(UIManager uiManager, ItemsManager itemsManager, ServerManager serverManager, LoadingManager loadingManager)
+        private void Install(UIManager uiManager, ItemsManager itemsManager, ServerManager serverManager, LoadingService loadingManager)
         {
             _uiManager = uiManager;
             _itemsManager = itemsManager;
