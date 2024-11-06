@@ -33,7 +33,7 @@ namespace Game
         {
             if (FirebaseAuth.DefaultInstance.CurrentUser != null)
             {
-                
+                OnUserAuthorized();
             }
         }
 

@@ -9,6 +9,8 @@ namespace Game
         private FirebaseDatabaseService _firebaseDatabaseService;
         private LoadingService _loadingManager;
 
+        public UserData CurrentUser => _currentUser;
+
         public UserService(FirebaseDatabaseService firebaseDatabaseService, LoadingService loadingManager)
         {
             _firebaseDatabaseService = firebaseDatabaseService;
@@ -25,7 +27,6 @@ namespace Game
         {
             _currentUser = new UserData()
             {
-                Money = 0,
                 Name = userName
             };
 
@@ -34,27 +35,13 @@ namespace Game
 
         }
 
-        public void ChangeName(string newName)
+        public void SetNickName(string newName)
         {
             if (string.IsNullOrEmpty(newName))
                 return;
 
             _currentUser.Name = newName;
             _firebaseDatabaseService.SaveUserDataAsync(_currentUser);
-        }
-
-        public void ChangeMoney(int money)
-        {
-            if (money < 0)
-                return;
-            _currentUser.Money = money;
-            _firebaseDatabaseService.SaveUserDataAsync(_currentUser);
-        }
-
-        public void SignOut()
-        {
-            FirebaseAuth.DefaultInstance.SignOut();
-            _loadingManager.LoadAuthorization();
         }
     }
 }

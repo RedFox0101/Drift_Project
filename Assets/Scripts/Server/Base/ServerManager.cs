@@ -25,7 +25,7 @@ namespace Game.Server
         private SaveManager _saveManager;
         private LoadingService _loadingManager;
         private AssetsManager _assetsManager;
-        
+        private UserService _userService;
         private List<RoomInfo> _rooms = new();
         
         private List<ServerResource> _serverResourcesPool = new();
@@ -50,13 +50,13 @@ namespace Game.Server
         
         [Inject]
         private void Install(ServerConfig serverConfig, SaveManager saveManager, 
-            LoadingService loadingManager,  AssetsManager assetsManager) 
+            LoadingService loadingManager,  AssetsManager assetsManager, UserService userService) 
         {
             _config = serverConfig;
             _saveManager = saveManager;
             _loadingManager = loadingManager;
             _assetsManager = assetsManager;
-
+            _userService = userService;
         }
         
         public void Initialize()
@@ -64,15 +64,6 @@ namespace Game.Server
             PhotonNetwork.PrefabPool = this;
             
             PhotonNetwork.AddCallbackTarget(this);
-
-            if (_saveManager.TryGetData(_saveID, out string nickName))
-            {
-                SetNickName(nickName);
-            }
-            else
-            {
-                SetNickName($"Player{Random.Range(1, 100)}");
-            }
         }
 
         public GameObject InstantiatePlayer(Vector3 position, Quaternion rotation)
@@ -87,6 +78,7 @@ namespace Game.Server
         
         public void SetNickName(string nickname)
         {
+            _userService.SetNickName(nickname);
             PhotonNetwork.NickName = nickname;
             
             _saveManager.SetData(_saveID, nickname);
@@ -94,7 +86,8 @@ namespace Game.Server
 
         public string GetNickName()
         {
-            return PhotonNetwork.NickName;
+            Debug.Log("M " + _userService.CurrentUser.Name);
+           return _userService.CurrentUser.Name;
         }
 
         public bool IsMaster()

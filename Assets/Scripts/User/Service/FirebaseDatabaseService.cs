@@ -8,6 +8,7 @@ namespace Game
 {
     public class FirebaseDatabaseService
     {
+        private const string PathString = "Users";
         private DatabaseReference _databaseReference;
 
         public FirebaseDatabaseService()
@@ -31,7 +32,7 @@ namespace Game
             try
             {
                 string jsonData = JsonUtility.ToJson(userData);
-                await _databaseReference.Child("Users").Child(userId).SetRawJsonValueAsync(jsonData);
+                await _databaseReference.Child(PathString).Child(userId).SetRawJsonValueAsync(jsonData);
             }
             catch (FirebaseException ex)
             {
@@ -50,16 +51,17 @@ namespace Game
 
             try
             {
-                DataSnapshot snapshot = await _databaseReference.Child("users").Child(userId).GetValueAsync();
+                DataSnapshot snapshot = await _databaseReference.Child(PathString).Child(userId).GetValueAsync();
                 if (snapshot.Exists)
                 {
                     string jsonData = snapshot.GetRawJsonValue();
                     UserData userData = JsonUtility.FromJson<UserData>(jsonData);
-                    Debug.Log($"Данные пользователя успешно получены: Имя = {userData.Name}, Деньги = {userData.Money}");
+                  
                     return userData;
                 }
                 else
                 {
+                    FirebaseAuth.DefaultInstance.SignOut();
                     Debug.LogWarning("Данные пользователя не найдены");
                     return null;
                 }
